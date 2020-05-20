@@ -1,6 +1,5 @@
 const fs = require('fs');
 
-let readFiles = null;
 
 fs.readdir('./',( err, files) => {
     //1 - Create a method to get all the files inside a given path 
